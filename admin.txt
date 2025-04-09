@@ -1,0 +1,19 @@
+ratul2001x@gmail.com
+shafin007x
+
+added from flask shell as admin
+
+PS C:\Users\radou\Downloads\Thrifters2.0> flask shell
+Python 3.11.9 (tags/v3.11.9:de54cf5, Apr  2 2024, 10:12:12) [MSC v.1938 64 bit (AMD64)] on win32
+App: app
+Instance: C:\Users\radou\Downloads\Thrifters2.0\instance
+>>> from app import db
+>>> from models import Admin
+>>> new_admin = Admin(email="ratul2001x@gmail.com", password="shafin13x")
+>>> db.session.add(new_admin)
+>>> db.session.commit()
+>>> exit
+Use exit() or Ctrl-Z plus Return to exit
+>>> exit()
+
+or the id1 in buyer is only admin 
